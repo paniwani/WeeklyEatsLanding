@@ -1,8 +1,9 @@
 <div id='right'>
-    <form>
-        <input type='text' />
-        <div id='email'><%= image_tag 'email_button.png' %></div>
-    </form>
+    
+    <%= form_tag('/thanks') do %>
+        <input type='text' name='email' />
+        <div id='email'><%= image_submit_tag 'email_button.png' %></div>
+    <% end %>
 
     <div id='fb'><%= image_tag 'Facebook-icon.png' %></div>
     <div id='twitter'><%= image_tag 'Twitter-icon.png' %></div>
