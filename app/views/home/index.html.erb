@@ -1,15 +1,16 @@
-<div id='right'>
-    
-    <%= form_tag('/thanks') do %>
-        <input type='text' name='email' />
-        <div id='email'><%= image_submit_tag 'email_button.png' %></div>
-    <% end %>
-
-    <div id='fb'><%= image_tag 'Facebook-icon.png' %></div>
-    <div id='twitter'><%= image_tag 'Twitter-icon.png' %></div>
-</div>
-
-<div id='left'>
-    <div id='logo'><%= image_tag 'logo.png' %></div>
-    <div id='logotext'><%= image_tag 'logo_text5.png' %></div>
+<div id="wrapper">
+	<div id="logo">
+	    <%= image_tag 'logo.png' %>
+	</div>
+	<div id="intro">
+	    <%= image_tag 'logo_text5.png' %>
+	</div>
+	<div id="side">
+		 <%= form_tag('/thanks') do %>
+            <input type='text' name='email' />
+            <%= image_submit_tag 'email_button.png' %>
+        <% end %>
+        <%= link_to image_tag('Facebook-icon.png', :id => "sm"), "https://www.facebook.com/pages/Weekly-Eats/295918210438439?ref=ts" %>
+        <%= link_to image_tag('Twitter-icon.png', :id => "sm-last"), "http://twitter.com/#!/getweeklyeats" %>
+	</div>
 </div>
