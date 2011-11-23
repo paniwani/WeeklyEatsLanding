@@ -40,3 +40,11 @@ img#twitter {
     width: 56px;
     height: 56px;
 }
+
+#thanks {
+    margin-top: 260px;
+    font-size:22px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
