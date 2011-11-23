@@ -12,16 +12,31 @@ p {
     font: Helvetica;
 } 
 
-#email {
-    margin: 0 0 0 300px;    
+input#email {
+    width: 255px;
+    height: 25px;
+    margin: 2px 0 0 300px;  
+    font-size:22px;  
 }
 
 #submit {
     width: 53px;
+    height: 35px;
     float:right;
     margin: 0 330px 0 0;
 }
 
 #social {
     clear:both;
+}
+
+img#fb {
+    margin-top: 10px;
+    width: 56px;
+    height: 56px;
+}
+
+img#twitter {
+    width: 56px;
+    height: 56px;
 }
