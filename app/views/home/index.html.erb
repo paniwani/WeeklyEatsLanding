@@ -1,16 +1,13 @@
-<div id="wrapper">
-	<div id="logo">
-	    <%= image_tag 'logo.png' %>
-	</div>
-	<div id="intro">
-	    <%= image_tag 'logo_text5.png' %>
-	</div>
-	<div id="side">
-		 <%= form_tag('/thanks') do %>
-            <input type='text' name='email' />
-            <%= image_submit_tag 'email_button.png' %>
-        <% end %>
-        <%= link_to image_tag('Facebook-icon.png', :id => "sm"), "https://www.facebook.com/pages/Weekly-Eats/295918210438439?ref=ts" %>
-        <%= link_to image_tag('Twitter-icon.png', :id => "sm-last"), "http://twitter.com/#!/getweeklyeats" %>
-	</div>
-</div>
+<%= image_tag 'logo.png' %>
+<%= image_tag 'logo_text.png' %>
+
+<%= link_to image_tag("youtube.png"), "http://bit.ly/VoteWeeklyEats" %>
+
+<%= image_tag 'email_text.png' %>
+<%= form_tag('/thanks') do %>
+    <input type='text' name='email' />
+    <br>    
+    <%= image_submit_tag 'email_button.png', :id => "submit" %>
+<% end %>
+<%= link_to image_tag('Facebook-icon.png', :id => "sm"), "https://www.facebook.com/pages/Weekly-Eats/295918210438439?ref=ts" %>
+<%= link_to image_tag('Twitter-icon.png', :id => "sm-last"), "http://twitter.com/#!/getweeklyeats" %>
