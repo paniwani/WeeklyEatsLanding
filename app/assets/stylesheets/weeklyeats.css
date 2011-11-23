@@ -13,12 +13,13 @@ p {
 } 
 
 #email {
-    margin: 0 0 0 315px;    
+    margin: 0 0 0 330px;    
 }
 
 #submit {
     float:right;
     margin: 0 330px 0 0;
+	width: 53px;
 }
 
 #social {
