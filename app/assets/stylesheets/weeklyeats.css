@@ -1,9 +1,35 @@
 body {
-    background-color: #00a5e5;
+/*    background-color: #00a5e5;  
+	background-color:#0073d4;  
+	
+	background: rgb(5,171,224); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(5,171,224,1) 0%, rgba(83,203,241,1) 35%, rgba(83,203,241,1) 74%, rgba(135,224,253,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,171,224,1)), color-stop(35%,rgba(83,203,241,1)), color-stop(74%,rgba(83,203,241,1)), color-stop(100%,rgba(135,224,253,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 35%,rgba(83,203,241,1) 74%,rgba(135,224,253,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 35%,rgba(83,203,241,1) 74%,rgba(135,224,253,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 35%,rgba(83,203,241,1) 74%,rgba(135,224,253,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 35%,rgba(83,203,241,1) 74%,rgba(135,224,253,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=0 ); /* IE6-9 */
+	
+	
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
     text-align: center;
     margin: 0 auto;
 	width:960px;
 	margin-top: 20px;
+}
+
+#main {
+	float:left;
+	width:700px;
+	margin-right:10px;
+}
+
+#sidebar {
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+	float:right;
+	width:250px;
+	align:left;
 }
 
 p {
@@ -12,19 +38,29 @@ p {
     font: Helvetica;
 } 
 
+h2 {
+	color: white;
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+	font-size: 30px;
+	text-align: left;
+	line-height:30px;
+}
+
 input#email {
-    width: 255px;
-    height: 25px;
-    margin: 2px 0 0 300px;  
+    width: 240px;
+    height: 35px;
+    margin: 5px 0 10px 0;  
     font-size:22px;  
 }
 
+
 #submit {
-    width: 53px;
+    width: 100px;
     height: 35px;
-    float:right;
-    margin: 0 330px 0 0;
+    float:right; 
+    margin: 0 2px 0 0; 
 }
+
 
 #social {
     clear:both;
@@ -48,3 +84,6 @@ img#twitter {
     color: white;
     font-size: 30px;
 }
+
+
+
