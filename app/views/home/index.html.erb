@@ -1,7 +1,7 @@
 
 <div id="main">
 	<%= image_tag 'logo.png' %>
-	<%= image_tag 'logo_text.png' %>
+	<%= image_tag 'logo_text.png', :id => "tagline" %>
 
 	<%= link_to image_tag("youtube.png"), "http://bit.ly/VoteWeeklyEats" %>	
 </div>
@@ -15,6 +15,7 @@
 	    <%= image_submit_tag 'email_button.png', :id => "submit" %>
 	<% end %>
 	<div id='social'>
+
 	    <%= link_to image_tag('Facebook-icon.png', :id => "fb"), "https://www.facebook.com/pages/Weekly-Eats/295918210438439?ref=ts" %>
 	    <%= link_to image_tag('Twitter-icon.png', :id => "twitter"), "http://twitter.com/#!/getweeklyeats" %>
 	</div>

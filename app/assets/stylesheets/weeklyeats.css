@@ -29,7 +29,6 @@ body {
 	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
 	float:right;
 	width:250px;
-	align:left;
 }
 
 p {
@@ -44,6 +43,11 @@ h2 {
 	font-size: 30px;
 	text-align: left;
 	line-height:30px;
+}
+
+#tagline {
+	float:right;
+	margin-right:10px;
 }
 
 input#email {
@@ -64,6 +68,7 @@ input#email {
 
 #social {
     clear:both;
+	float:center;
 }
 
 img#fb {
