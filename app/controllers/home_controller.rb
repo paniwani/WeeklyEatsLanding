@@ -5,5 +5,4 @@ class HomeController < ApplicationController
   def thanks
     User.create( :email => params[:email] )
   end
-
 end

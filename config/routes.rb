@@ -4,6 +4,8 @@ WeeklyEatsLanding::Application.routes.draw do
   root :to => "home#index"
   
   match '/thanks' => 'home#thanks'
+  
+  match '/googleb41b7d1ed2feaa8e.html', :to => redirect('/googleb41b7d1ed2feaa8e.html')
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
